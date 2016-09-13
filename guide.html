@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width = device-width, initial-scale = 1">
+
+
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+
+<div class="container">
+
+<div class="jumbotron">
+<h1><img id="left-Y" class="img-responsive" style="float:left;" src="http://img.photobucket.com/albums/v294/a_mingjai/BYU-Helmet2.jpg" alt="BYU" width="200" height="200">
+CS GUIDE
+<img id="right-Y" class="img-responsive" style="float:right;" src="http://img.photobucket.com/albums/v294/a_mingjai/BYU-Helmet2.jpg" alt="BYU" width="200" height="200"></h1>
+<div id="Gray_box">
+
+
+<!-- <div class="dropdown"> -->
+ <!-- <button class="btn btn-primary dropdown-toggle btn-lg" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">CS 142</button>
+ <button type="submit" class="btn btn-default" role="button">CS 235</button>
+ <input type="button" value="CS 236" class="btn btn-default btn-lg">
+ <input type="button" value="CS 240" class="btn btn-default btn-lg">
+ <input type="button" value="CS 201R" class="btn btn-default btn-lg">
+ <input type="button" value="CS 224" class="btn btn-default btn-lg"> -->
+ <!-- </div> -->
+
+ <ul>
+
+    <a class="dropbtn" onclick="myFunc()">CS 142</a>
+
+  <li class="dropdown">
+    <a href="#" class="dropbtn">CS 235</a>
+    <div class="dropdown-content">
+      <a href="#">Data Types in Applications</a>
+      <a href="#">Recursion</a>
+      <a href="#">Big-Oh</a>
+      <a href="#">Searching(Sequtial & Binary)</a>
+      <a href="#">Sorting</a>
+      <a href="#">Array and linked implementations of List</a>
+      <a href="#">Array and linked implementations of Stack and Queue</a>
+      <a href="#">Trees</a>
+      <a href="#">Binary Trees</a>
+      <a href="#">Traversals</a>
+      <a href="#">Binary Search Trees</a>
+      <a href="#">AVL Trees</a>
+      <a href="#">Hashing</a>
+      <a href="#">Chaining</a>
+      <a href="#">Linear Probing</a>
+      <a href="#">Quadratic Probing</a>
+      <a href="#">Binary Heaps</a>
+      <a href="#">Heapsort</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">CS 236</a>
+    <div class="dropdown-content">
+      <a href="#">Grammars</a>
+      <a href="#">Languages</a>
+      <a href="#">Parsing</a>
+      <a href="#">Propositional Logic</a>
+      <a href="#">Proofs</a>
+      <a href="#">Proof Techniques</a>
+      <a href="#">Predicate Calculus</a>
+      <a href="#">Sets</a>
+      <a href="#">Relations</a>
+      <a href="#">Functions</a>
+      <a href="#">Relational Databases</a>
+      <a href="#">Deductive Databases</a>
+      <a href="#">Graphs</a>
+      <a href="#">Graph Algorithms</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">CS 240</a>
+    <div class="dropdown-content">
+      <a href="#">Introduction to Java and the Linus Programming Environment</a>
+      <a href="#">Java Memory Model</a>
+      <a href="#">Java Pointers</a>
+      <a href="#">Java Strings</a>
+      <a href="#">Java Stream I/O</a>
+      <a href="#">Java References</a>
+      <a href="#">Java Parameter Passing</a>
+      <a href="#">Java Classes</a>
+      <a href="#">Multi-File Projects</a>
+      <a href="#">Make</a>
+      <a href="#">Principles of Software Design</a>
+      <a href="#">Design Principles</a>
+      <a href="#">Project I Overview & Design</a>
+      <a href="#">Project II Overview & Design</a>
+      <a href="#">Principles of Software Implementation</a>
+      <a href="#">Memory Management</a>
+      <a href="#">Unit Testing</a>
+      <a href="#">Debugging</a>
+      <a href="#">Error Handling</a>
+      <a href="#">Defensive Programming</a>
+      <a href="#">Operator Overloading</a>
+      <a href="#">Templates</a>
+      <a href="#">Standard Template Library</a>
+      <a href="#">Inheritance in Java</a>
+      <a href="#">Polymorphism in Java</a>
+      <a href="#">Code Tuning</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">CS 201R</a>
+    <div class="dropdown-content">
+      <a href="#">Introduction To Web Programming</a>
+      <a href="#">HTML</a>
+      <a href="#">CSS</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">CS 224</a>
+    <div class="dropdown-content">
+      <a href="#">S01: Data Types</a>
+      <a href="#">Binary Digital System</a>
+      <a href="#">Integral Data Types</a>
+      <a href="#">Fractional Data Types</a>
+      <a href="#">ASCII Characters</a>
+      <a href="#">S02: Digital Logic</a>
+      <a href="#">Logical/Arithmetic Operations</a>
+      <a href="#">Digital Logic Devices</a>
+      <a href="#">Gates</a>
+      <a href="#">Truth Tables</a>
+      <a href="#">Equations</a>
+      <a href="#">Combinational Logic</a>
+      <a href="#">Logical Completeness</a>
+      <a href="#">Sequential Logic</a>
+      <a href="#">Finite State Machine</a>
+      <a href="#">S03: Instruction Set Architecture</a>
+      <a href="#">ISA</a>
+      <a href="#">Von Neumann vs. Harvard</a>
+      <a href="#">RISC/CISC</a>
+      <a href="#">Computer Instructions</a>
+      <a href="#">Addressing Modes</a>
+      <a href="#">Clocks</a>
+      <a href="#">Instruction Disassembly</a>
+      <a href="#">S04: Microarchitecture</a>
+      <a href="#">Microarchitecture</a>
+      <a href="#">Memory Mapped I/O</a>
+      <a href="#">Instruction Execution Phases</a>
+      <a href="#">S05: Stacks/Interrupts</a>
+      <a href="#">The Stack</a>
+      <a href="#">Subroutines</a>
+      <a href="#">Subroutine Linkage</a>
+      <a href="#">Stack Operations</a>
+      <a href="#">Activation Records</a>
+      <a href="#">Recursive Subroutines</a>
+      <a href="#">Interrupts</a>
+      <a href="#">Interrupt Stack Usage</a>
+      <a href="#">Interrupt Service Routines</a>
+      <a href="#">Timers</a>
+      <a href="#">Watchdog Timer</a>
+      <a href="#">Energy Consumption</a>
+      <a href="#">Processor Clocks</a>
+      <a href="#">Low Power Modes</a>
+      <a href="#">Pulse Width Modulation</a>
+      <a href="#">S06: Assembly</a>
+      <a href="#">High Level vs. Assembly</a>
+      <a href="#">Assembler</a>
+      <a href="#">Assembly Sections</a>
+      <a href="#">Assembly Directives</a>
+      <a href="#">Linker</a>
+      <a href="#">Libraries</a>
+      <a href="#">Assembly Coding</a>
+      <a href="#">Systematic Decomposition</a>
+      <a href="#">S07:C Language</a>
+      <a href="#">High Level Languages</a>
+      <a href="#">Compilers vs. Interpreters</a>
+      <a href="#">The C Language</a>
+      <a href="#">C Symbol Table</a>
+      <a href="#">C Preprocessor</a>
+      <a href="#">C Style</a>
+      <a href="#">Variables</a>
+      <a href="#">Operators</a>
+      <a href="#">Expressions</a>
+      <a href="#">Variable Storage</a>
+      <a href="#">Variable Scope</a>
+      <a href="#">Control Structures</a>
+      <a href="#">C Functions</a>
+      <a href="#">Subroutine Linkage</a>
+      <a href="#">Run-time Stack</a>
+      <a href="#">S08: Pointers</a>
+      <a href="#">Arrays</a>
+      <a href="#">C Strings</a>
+      <a href="#">Array Arguments</a>
+      <a href="#">Pointers</a>
+      <a href="#">Null Pointers</a>
+      <a href="#">Pointer Arithmetic</a>
+      <a href="#">Arrays and Pointers</a>
+      <a href="#">Static Variables</a>
+      <a href="#">Parsing</a>
+      <a href="#">Pointers to Pointers</a>
+      <a href="#">Multi-dimensional Arrays</a>
+      <a href="#">Command-line Arguments</a>
+      <a href="#">S09: Structs</a>
+      <a href="#">Event Driven Programming</a>
+      <a href="#">enum</a>
+      <a href="#">typedef's</a>
+      <a href="#">Structures</a>
+      <a href="#">structs in structs</a>
+      <a href="#">Array of structs</a>
+      <a href="#">struct Pointers</a>
+      <a href="#">Dynamic Memory Allocation</a>
+      <a href="#">Linked List</a>
+      <a href="#">union</a>
+      <a href="#">Bit fields</a>
+      <a href="#">S10: IO</a>
+      <a href="#">Standard Libraries</a>
+      <a href="#">Input/Output</a>
+      <a href="#">Data Streams</a>
+      <a href="#">File I/O</a>
+    </div>
+  </li>
+</ul>
+
+</div>
+
+</div>
+
+<div id="Welcome">
+<br>
+<h2>Welcome to the Computer Science Guide for Brigham Young University, here we hope to help you learn and navigate your way through the CS world and be as successful as possible.</h2>
+<h2>The classes listed in the tabs above are the classes required for the CS Minor.</h2>
+<h2>Select the class in which you would like to learn more. </h2>
+<br>
+</div>
+
+<script>
+function myFunc() {
+                var div = document.getElementById("Welcome");
+                var w = div.offsetWidth;
+                console.log(w);
+                var h = div.offsetHeight;
+                div.innerHTML = "<iframe src=page1.html width=" + w + " height=400 > Hello</iframe>";
+                
+        }
+
+</script>
+</body>
+</html>
+
+
